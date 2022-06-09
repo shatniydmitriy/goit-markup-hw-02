@@ -1,0 +1,49 @@
+.body{
+    background-color: #E5E5E5;
+    color: #212121;
+}
+.logo {
+
+}
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: blue;
+}
+.auth-nav {
+
+
+
+    
+}
+.hero-title {
+    color: #ffffff;
+    width: 696px;
+    height: 120px;
+    
+
+
+
+}
+.section-title {
+
+
+}
+.text {
+    color: #757575; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
