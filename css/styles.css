@@ -1,47 +1,172 @@
-.body{
-    background-color: #E5E5E5;
+.page {
     color: #212121;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 400;
 }
-.logo {
+.list {
+    list-style: none;
+}
 
+.link-current {
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.page-header{
+    background-color: #ffffff;
+}
+
+.logo > span {
+    color: #212121 ;
+}
+
+.logo {
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    font-family:'Raleway', sans-serif;
 }
 .site-nav .link {
     color: #212121;
+    
 }
+
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color: blue;
 }
-.auth-nav {
 
-
-
-    
+.link-current {
+    color: blue;
 }
-.hero-title {
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: blue;
+}
+
+.hero {
     color: #ffffff;
-    width: 696px;
-    height: 120px;
-    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    background-color: #2F303A;
+}
 
-
+.button {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #2196F3;
+    cursor: pointer;
 
 }
-.section-title {
-
-
+.button .link:hover,
+.button .link:focus {
+    color: rgb(13, 13, 35);
 }
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}    
+
 .text {
-    color: #757575; 
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
+.work {
 
 
+}
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
 
+.team {
+    background-color: #F5F4FA;
+}
 
+.team-title {
+    font-weight: 700;
+     font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
 
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
+.name-title {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
+.page-footer {
+    background-color: #2F303A;
+}
+.page-footer .logo > span {
+    color: #ffffff
+}
+.page-footer .contacts {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: blue;
+}
+
+.button-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.oll-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    border-radius: 4px;
+    background: #2196F3;
+
+}
+.button-link :hover,
+.button-link :focus {
+    color: blue;
+}
 
 
 
